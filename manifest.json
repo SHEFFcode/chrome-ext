@@ -22,7 +22,12 @@
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["myscript.js"]
+      "css": ["style.css"],
+      "js": ["jquery.js", "myscript.js"]
     }
+  ],
+  "web_accessible_resources": [
+    "toolbar.html",
+    "style.css"
   ]
 }
