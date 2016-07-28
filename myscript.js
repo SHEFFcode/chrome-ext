@@ -1,1 +1,1 @@
-chrome.runtime.sendMessage('Hello world!');
+chrome.runtime.sendMessage(document.getElementByTagName('title')[0].innerText);
