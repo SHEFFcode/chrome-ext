@@ -1,1 +1,1 @@
-alert(document.domain);
+chrome.runtime.sendMessage('Hello world!');
