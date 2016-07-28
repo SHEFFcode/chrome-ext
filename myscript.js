@@ -1,1 +1,1 @@
-chrome.runtime.sendMessage(document.getElementByTagName('title')[0].innerText);
+chrome.runtime.sendMessage(document.getElementsByTagName('title')[0].innerText);
